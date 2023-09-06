@@ -13,89 +13,8 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Spacewar/proprietary/system/etc/permissions/com.qualcomm.qti.UxPerformance.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.qualcomm.qti.UxPerformance.xml \
     vendor/nothing/Spacewar/proprietary/system/etc/permissions/se.dirac.acs.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/se.dirac.acs.xml \
     vendor/nothing/Spacewar/proprietary/system/etc/public.libraries.txt:$(TARGET_COPY_OUT_SYSTEM)/etc/public.libraries.txt \
-    vendor/nothing/Spacewar/proprietary/system/etc/richtapresources/.DS_Store:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/.DS_Store \
-    vendor/nothing/Spacewar/proprietary/system/etc/richtapresources/1.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/1.he \
-    vendor/nothing/Spacewar/proprietary/system/etc/richtapresources/10.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/10.he \
-    vendor/nothing/Spacewar/proprietary/system/etc/richtapresources/11.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/11.he \
-    vendor/nothing/Spacewar/proprietary/system/etc/richtapresources/12.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/12.he \
-    vendor/nothing/Spacewar/proprietary/system/etc/richtapresources/13.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/13.he \
-    vendor/nothing/Spacewar/proprietary/system/etc/richtapresources/14.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/14.he \
-    vendor/nothing/Spacewar/proprietary/system/etc/richtapresources/15.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/15.he \
-    vendor/nothing/Spacewar/proprietary/system/etc/richtapresources/16.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/16.he \
-    vendor/nothing/Spacewar/proprietary/system/etc/richtapresources/17.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/17.he \
-    vendor/nothing/Spacewar/proprietary/system/etc/richtapresources/18.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/18.he \
-    vendor/nothing/Spacewar/proprietary/system/etc/richtapresources/19.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/19.he \
-    vendor/nothing/Spacewar/proprietary/system/etc/richtapresources/2.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/2.he \
-    vendor/nothing/Spacewar/proprietary/system/etc/richtapresources/20.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/20.he \
-    vendor/nothing/Spacewar/proprietary/system/etc/richtapresources/21.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/21.he \
-    vendor/nothing/Spacewar/proprietary/system/etc/richtapresources/22.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/22.he \
-    vendor/nothing/Spacewar/proprietary/system/etc/richtapresources/3.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/3.he \
-    vendor/nothing/Spacewar/proprietary/system/etc/richtapresources/4.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/4.he \
-    vendor/nothing/Spacewar/proprietary/system/etc/richtapresources/5.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/5.he \
-    vendor/nothing/Spacewar/proprietary/system/etc/richtapresources/6.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/6.he \
-    vendor/nothing/Spacewar/proprietary/system/etc/richtapresources/7.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/7.he \
-    vendor/nothing/Spacewar/proprietary/system/etc/richtapresources/8.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/8.he \
-    vendor/nothing/Spacewar/proprietary/system/etc/richtapresources/9.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/9.he \
-    vendor/nothing/Spacewar/proprietary/system/etc/richtapresources/NT_OnOff_button.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/NT_OnOff_button.he \
-    vendor/nothing/Spacewar/proprietary/system/etc/richtapresources/NT_Silence.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/NT_Silence.he \
-    vendor/nothing/Spacewar/proprietary/system/etc/richtapresources/NT_camera_photo.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/NT_camera_photo.he \
-    vendor/nothing/Spacewar/proprietary/system/etc/richtapresources/NT_camera_zoom.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/NT_camera_zoom.he \
-    vendor/nothing/Spacewar/proprietary/system/etc/richtapresources/NT_charge.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/NT_charge.he \
-    vendor/nothing/Spacewar/proprietary/system/etc/richtapresources/NT_letters_navi.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/NT_letters_navi.he \
-    vendor/nothing/Spacewar/proprietary/system/etc/richtapresources/NT_notification1.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/NT_notification1.he \
-    vendor/nothing/Spacewar/proprietary/system/etc/richtapresources/NT_notification2.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/NT_notification2.he \
-    vendor/nothing/Spacewar/proprietary/system/etc/richtapresources/NT_notification3.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/NT_notification3.he \
-    vendor/nothing/Spacewar/proprietary/system/etc/richtapresources/NT_ringtone1.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/NT_ringtone1.he \
-    vendor/nothing/Spacewar/proprietary/system/etc/richtapresources/NT_ringtone2.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/NT_ringtone2.he \
-    vendor/nothing/Spacewar/proprietary/system/etc/richtapresources/NT_ringtone3.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/NT_ringtone3.he \
-    vendor/nothing/Spacewar/proprietary/system/etc/richtapresources/NT_unlock_error.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/NT_unlock_error.he \
-    vendor/nothing/Spacewar/proprietary/system/etc/richtapresources/NT_unlock_successful.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/NT_unlock_successful.he \
-    vendor/nothing/Spacewar/proprietary/system/etc/richtapresources/beak.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/beak.he \
-    vendor/nothing/Spacewar/proprietary/system/etc/richtapresources/bedside.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/bedside.he \
-    vendor/nothing/Spacewar/proprietary/system/etc/richtapresources/bulb_one.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/bulb_one.he \
-    vendor/nothing/Spacewar/proprietary/system/etc/richtapresources/bulb_two.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/bulb_two.he \
-    vendor/nothing/Spacewar/proprietary/system/etc/richtapresources/coil.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/coil.he \
-    vendor/nothing/Spacewar/proprietary/system/etc/richtapresources/common_notification1.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/common_notification1.he \
-    vendor/nothing/Spacewar/proprietary/system/etc/richtapresources/common_notification2.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/common_notification2.he \
-    vendor/nothing/Spacewar/proprietary/system/etc/richtapresources/common_ringtone1.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/common_ringtone1.he \
-    vendor/nothing/Spacewar/proprietary/system/etc/richtapresources/common_ringtone2.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/common_ringtone2.he \
-    vendor/nothing/Spacewar/proprietary/system/etc/richtapresources/cough.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/cough.he \
-    vendor/nothing/Spacewar/proprietary/system/etc/richtapresources/fox.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/fox.he \
-    vendor/nothing/Spacewar/proprietary/system/etc/richtapresources/frogs.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/frogs.he \
-    vendor/nothing/Spacewar/proprietary/system/etc/richtapresources/gamma.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/gamma.he \
-    vendor/nothing/Spacewar/proprietary/system/etc/richtapresources/gargle.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/gargle.he \
-    vendor/nothing/Spacewar/proprietary/system/etc/richtapresources/guiro.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/guiro.he \
-    vendor/nothing/Spacewar/proprietary/system/etc/richtapresources/incoming.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/incoming.he \
-    vendor/nothing/Spacewar/proprietary/system/etc/richtapresources/isolator.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/isolator.he \
-    vendor/nothing/Spacewar/proprietary/system/etc/richtapresources/kashio.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/kashio.he \
-    vendor/nothing/Spacewar/proprietary/system/etc/richtapresources/munge.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/munge.he \
-    vendor/nothing/Spacewar/proprietary/system/etc/richtapresources/nope.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/nope.he \
-    vendor/nothing/Spacewar/proprietary/system/etc/richtapresources/nothing.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/nothing.he \
-    vendor/nothing/Spacewar/proprietary/system/etc/richtapresources/oi!.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/oi!.he \
-    vendor/nothing/Spacewar/proprietary/system/etc/richtapresources/pep.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/pep.he \
-    vendor/nothing/Spacewar/proprietary/system/etc/richtapresources/prong.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/prong.he \
-    vendor/nothing/Spacewar/proprietary/system/etc/richtapresources/ramble.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/ramble.he \
-    vendor/nothing/Spacewar/proprietary/system/etc/richtapresources/simmer.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/simmer.he \
-    vendor/nothing/Spacewar/proprietary/system/etc/richtapresources/skim.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/skim.he \
-    vendor/nothing/Spacewar/proprietary/system/etc/richtapresources/squiggle.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/squiggle.he \
-    vendor/nothing/Spacewar/proprietary/system/etc/richtapresources/transmission.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/transmission.he \
-    vendor/nothing/Spacewar/proprietary/system/etc/richtapresources/volley.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/volley.he \
-    vendor/nothing/Spacewar/proprietary/system/etc/richtapresources/why.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/why.he \
-    vendor/nothing/Spacewar/proprietary/system/etc/richtapresources/woo.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/woo.he \
-    vendor/nothing/Spacewar/proprietary/system/etc/richtapresources/yeh.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/yeh.he \
-    vendor/nothing/Spacewar/proprietary/system/etc/richtapresources/zip.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/zip.he \
     vendor/nothing/Spacewar/proprietary/system/etc/sysconfig/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml \
-    vendor/nothing/Spacewar/proprietary/system/lib/libarcsoft_beautyshot.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libarcsoft_beautyshot.so \
-    vendor/nothing/Spacewar/proprietary/system/lib/libarcsoft_hdr_detection.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libarcsoft_hdr_detection.so \
-    vendor/nothing/Spacewar/proprietary/system/lib/libarcsoft_high_dynamic_range.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libarcsoft_high_dynamic_range.so \
-    vendor/nothing/Spacewar/proprietary/system/lib/libarcsoft_low_light_hdr.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libarcsoft_low_light_hdr.so \
-    vendor/nothing/Spacewar/proprietary/system/lib/libarcsoft_singlecam_bokeh.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libarcsoft_singlecam_bokeh.so \
     vendor/nothing/Spacewar/proprietary/system/lib/libmpbase.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmpbase.so \
-    vendor/nothing/Spacewar/proprietary/system/lib64/libarcsoft_beautyshot.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libarcsoft_beautyshot.so \
-    vendor/nothing/Spacewar/proprietary/system/lib64/libarcsoft_hdr_detection.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libarcsoft_hdr_detection.so \
-    vendor/nothing/Spacewar/proprietary/system/lib64/libarcsoft_high_dynamic_range.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libarcsoft_high_dynamic_range.so \
-    vendor/nothing/Spacewar/proprietary/system/lib64/libarcsoft_low_light_hdr.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libarcsoft_low_light_hdr.so \
-    vendor/nothing/Spacewar/proprietary/system/lib64/libarcsoft_singlecam_bokeh.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libarcsoft_singlecam_bokeh.so \
     vendor/nothing/Spacewar/proprietary/system/lib64/libmpbase.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmpbase.so \
     vendor/nothing/Spacewar/proprietary/system_ext/bin/dpmd:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/dpmd \
     vendor/nothing/Spacewar/proprietary/system_ext/bin/perfservice:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/perfservice \
@@ -228,9 +147,12 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Spacewar/proprietary/system_ext/etc/sysconfig/qti_whitelist_system_ext.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sysconfig/qti_whitelist_system_ext.xml \
     vendor/nothing/Spacewar/proprietary/system_ext/etc/wfdconfigsink.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/wfdconfigsink.xml \
     vendor/nothing/Spacewar/proprietary/system_ext/lib/libavenhancements.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libavenhancements.so \
+<<<<<<< HEAD
     vendor/nothing/Spacewar/proprietary/system_ext/lib/libbeluga.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libbeluga.so \
     vendor/nothing/Spacewar/proprietary/system_ext/lib/libcomposerextn.qti.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libcomposerextn.qti.so \
     vendor/nothing/Spacewar/proprietary/system_ext/lib/libdolphin.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libdolphin.so \
+=======
+>>>>>>> 600a88d (Spacewar: Update from NOS 2.0.2)
     vendor/nothing/Spacewar/proprietary/system_ext/lib/libencoderjpeg_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libencoderjpeg_jni.so \
     vendor/nothing/Spacewar/proprietary/system_ext/lib/liblayerext.qti.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/liblayerext.qti.so \
     vendor/nothing/Spacewar/proprietary/system_ext/lib/libmmosal.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libmmosal.so \
@@ -281,7 +203,6 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Spacewar/proprietary/system_ext/lib64/lib-imsvtextutils.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/lib-imsvtextutils.so \
     vendor/nothing/Spacewar/proprietary/system_ext/lib64/lib-imsvtutils.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/lib-imsvtutils.so \
     vendor/nothing/Spacewar/proprietary/system_ext/lib64/libavenhancements.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libavenhancements.so \
-    vendor/nothing/Spacewar/proprietary/system_ext/lib64/libcamxextension_algo.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libcamxextension_algo.so \
     vendor/nothing/Spacewar/proprietary/system_ext/lib64/libdiag_system.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libdiag_system.so \
     vendor/nothing/Spacewar/proprietary/system_ext/lib64/libdolphin.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libdolphin.so \
     vendor/nothing/Spacewar/proprietary/system_ext/lib64/libdpmctmgr.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libdpmctmgr.so \
@@ -652,6 +573,68 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Spacewar/proprietary/vendor/etc/qcril_database/upgrade/other/8_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/other/8_version_update_ecc_table.sql \
     vendor/nothing/Spacewar/proprietary/vendor/etc/qcril_database/upgrade/other/9_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/other/9_version_update_ecc_table.sql \
     vendor/nothing/Spacewar/proprietary/vendor/etc/qdcm_calib_data_rm692e5_amoled_fhd+_120hz_cmd_mode_dsi_visionox_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_rm692e5_amoled_fhd+_120hz_cmd_mode_dsi_visionox_panel.xml \
+    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/NT_OnOff_button.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/NT_OnOff_button.he \
+    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/NT_camera_photo.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/NT_camera_photo.he \
+    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/NT_camera_zoom.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/NT_camera_zoom.he \
+    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/NT_charge.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/NT_charge.he \
+    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/NT_letters_navi.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/NT_letters_navi.he \
+    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/NT_unlock_error.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/NT_unlock_error.he \
+    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/NT_unlock_successful.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/NT_unlock_successful.he \
+    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/alarm/bedside.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/alarm/bedside.he \
+    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/alarm/coil.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/alarm/coil.he \
+    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/alarm/frogs.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/alarm/frogs.he \
+    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/alarm/incoming.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/alarm/incoming.he \
+    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/alarm/kashio.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/alarm/kashio.he \
+    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/alarm/munge.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/alarm/munge.he \
+    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/alarm/nothing.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/alarm/nothing.he \
+    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/alarm/prong.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/alarm/prong.he \
+    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/alarm/ramble.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/alarm/ramble.he \
+    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/alarm/transmission.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/alarm/transmission.he \
+    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/common_notification1.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/common_notification1.he \
+    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/common_notification2.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/common_notification2.he \
+    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/common_ringtone1.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/common_ringtone1.he \
+    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/common_ringtone2.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/common_ringtone2.he \
+    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/notification/beak.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/notification/beak.he \
+    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/notification/bulb_one.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/notification/bulb_one.he \
+    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/notification/bulb_two.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/notification/bulb_two.he \
+    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/notification/cough.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/notification/cough.he \
+    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/notification/fox.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/notification/fox.he \
+    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/notification/gamma.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/notification/gamma.he \
+    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/notification/gargle.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/notification/gargle.he \
+    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/notification/guiro.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/notification/guiro.he \
+    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/notification/isolator.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/notification/isolator.he \
+    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/notification/nope.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/notification/nope.he \
+    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/notification/oi!.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/notification/oi!.he \
+    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/notification/pep.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/notification/pep.he \
+    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/notification/simmer.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/notification/simmer.he \
+    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/notification/skim.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/notification/skim.he \
+    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/notification/squiggle.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/notification/squiggle.he \
+    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/notification/volley.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/notification/volley.he \
+    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/notification/why.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/notification/why.he \
+    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/notification/woo.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/notification/woo.he \
+    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/notification/yeh.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/notification/yeh.he \
+    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/notification/zip.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/notification/zip.he \
+    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/ringtone/abra.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/ringtone/abra.he \
+    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/ringtone/beetle.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/ringtone/beetle.he \
+    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/ringtone/bug.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/ringtone/bug.he \
+    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/ringtone/burrow.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/ringtone/burrow.he \
+    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/ringtone/coded.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/ringtone/coded.he \
+    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/ringtone/flutter.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/ringtone/flutter.he \
+    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/ringtone/forever.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/ringtone/forever.he \
+    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/ringtone/karha.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/ringtone/karha.he \
+    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/ringtone/latency.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/ringtone/latency.he \
+    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/ringtone/molitor.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/ringtone/molitor.he \
+    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/ringtone/pepelu.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/ringtone/pepelu.he \
+    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/ringtone/pet.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/ringtone/pet.he \
+    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/ringtone/plot.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/ringtone/plot.he \
+    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/ringtone/pneumatic.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/ringtone/pneumatic.he \
+    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/ringtone/radiate.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/ringtone/radiate.he \
+    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/ringtone/scribble.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/ringtone/scribble.he \
+    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/ringtone/snaps.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/ringtone/snaps.he \
+    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/ringtone/squirrels.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/ringtone/squirrels.he \
+    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/ringtone/tennis.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/ringtone/tennis.he \
+    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/ringtone/woo_yeh.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/ringtone/woo_yeh.he \
+    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/ringtone/wow!.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/ringtone/wow!.he \
     vendor/nothing/Spacewar/proprietary/vendor/etc/sap.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sap.conf \
     vendor/nothing/Spacewar/proprietary/vendor/etc/sec_config:$(TARGET_COPY_OUT_VENDOR)/etc/sec_config \
     vendor/nothing/Spacewar/proprietary/vendor/etc/seccomp_policy/atfwd@2.0.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/atfwd@2.0.policy \
@@ -1248,14 +1231,22 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Spacewar/proprietary/vendor/lib64/libaidenoiserv2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaidenoiserv2.so \
     vendor/nothing/Spacewar/proprietary/vendor/lib64/libaoa.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaoa.so \
     vendor/nothing/Spacewar/proprietary/vendor/lib64/libappclassifier.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libappclassifier.so \
+    vendor/nothing/Spacewar/proprietary/vendor/lib64/libarcsoft_aiscenedetection.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_aiscenedetection.so \
+    vendor/nothing/Spacewar/proprietary/vendor/lib64/libarcsoft_beautyshot.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_beautyshot.so \
+    vendor/nothing/Spacewar/proprietary/vendor/lib64/libarcsoft_dark_vision_raw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_dark_vision_raw.so \
     vendor/nothing/Spacewar/proprietary/vendor/lib64/libarcsoft_dualcam_refocus_image.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_dualcam_refocus_image.so \
     vendor/nothing/Spacewar/proprietary/vendor/lib64/libarcsoft_dualcam_refocus_video.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_dualcam_refocus_video.so \
     vendor/nothing/Spacewar/proprietary/vendor/lib64/libarcsoft_hdr_detection.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_hdr_detection.so \
     vendor/nothing/Spacewar/proprietary/vendor/lib64/libarcsoft_high_dynamic_range.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_high_dynamic_range.so \
+    vendor/nothing/Spacewar/proprietary/vendor/lib64/libarcsoft_low_light_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_low_light_hdr.so \
+    vendor/nothing/Spacewar/proprietary/vendor/lib64/libarcsoft_mf_superresolution.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_mf_superresolution.so \
     vendor/nothing/Spacewar/proprietary/vendor/lib64/libarcsoft_night_video.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_night_video.so \
+    vendor/nothing/Spacewar/proprietary/vendor/lib64/libarcsoft_portrait_distortion_correction.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_portrait_distortion_correction.so \
     vendor/nothing/Spacewar/proprietary/vendor/lib64/libarcsoft_portrait_super_night_raw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_portrait_super_night_raw.so \
     vendor/nothing/Spacewar/proprietary/vendor/lib64/libarcsoft_singlecam_bokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_singlecam_bokeh.so \
     vendor/nothing/Spacewar/proprietary/vendor/lib64/libarcsoft_super_night_raw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_super_night_raw.so \
+    vendor/nothing/Spacewar/proprietary/vendor/lib64/libarcsoft_superportrait.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_superportrait.so \
+    vendor/nothing/Spacewar/proprietary/vendor/lib64/libarcsoft_watermark.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_watermark.so \
     vendor/nothing/Spacewar/proprietary/vendor/lib64/libasn1cper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libasn1cper.so \
     vendor/nothing/Spacewar/proprietary/vendor/lib64/libasn1crt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libasn1crt.so \
     vendor/nothing/Spacewar/proprietary/vendor/lib64/libasn1crtx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libasn1crtx.so \
@@ -1386,6 +1377,7 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Spacewar/proprietary/vendor/lib64/libmmcamera_pdpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_pdpc.so \
     vendor/nothing/Spacewar/proprietary/vendor/lib64/libmmosal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmosal.so \
     vendor/nothing/Spacewar/proprietary/vendor/lib64/libmorpho_MotionSensor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmorpho_MotionSensor.so \
+    vendor/nothing/Spacewar/proprietary/vendor/lib64/libmouth_mask_detection.arcsoft.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmouth_mask_detection.arcsoft.so \
     vendor/nothing/Spacewar/proprietary/vendor/lib64/libmpbase.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmpbase.so \
     vendor/nothing/Spacewar/proprietary/vendor/lib64/libmulawdec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmulawdec.so \
     vendor/nothing/Spacewar/proprietary/vendor/lib64/libnanopb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnanopb.so \

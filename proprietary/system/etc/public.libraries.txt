@@ -30,4 +30,3 @@ libwebviewchromium_plat_support.so
 libz.so
 libofflineproc_jni.so
 libencoderjpeg_jni.so
-libcamxextension_algo.so
