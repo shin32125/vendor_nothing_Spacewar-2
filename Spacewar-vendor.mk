@@ -657,6 +657,8 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Spacewar/proprietary/vendor/etc/thermal.mid.level4.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal.mid.level4.conf \
     vendor/nothing/Spacewar/proprietary/vendor/etc/thermal.sgame.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal.sgame.conf \
     vendor/nothing/Spacewar/proprietary/vendor/etc/thermal.super.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal.super.conf \
+	vendor/nothing/Spacewar/proprietary/vendor/etc/wifi/p2p_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/p2p_supplicant_overlay.conf \
+    vendor/nothing/Spacewar/proprietary/vendor/etc/wifi/qca6750/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/qca6750/WCNSS_qcom_cfg.ini \
     vendor/nothing/Spacewar/proprietary/vendor/etc/wfdconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wfdconfig.xml \
     vendor/nothing/Spacewar/proprietary/vendor/etc/xtra_root_cert.pem:$(TARGET_COPY_OUT_VENDOR)/etc/xtra_root_cert.pem \
     vendor/nothing/Spacewar/proprietary/vendor/etc/xtwifi.conf:$(TARGET_COPY_OUT_VENDOR)/etc/xtwifi.conf \
