@@ -479,7 +479,6 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Spacewar/proprietary/vendor/etc/perf/targetconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetconfig.xml \
     vendor/nothing/Spacewar/proprietary/vendor/etc/perf/targetresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetresourceconfigs.xml \
     vendor/nothing/Spacewar/proprietary/vendor/etc/permissions/vendor-qti-hardware-sensorscalibrate.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/vendor-qti-hardware-sensorscalibrate.xml \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/powerhint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.xml \
     vendor/nothing/Spacewar/proprietary/vendor/etc/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt \
     vendor/nothing/Spacewar/proprietary/vendor/etc/qcril_database/qcrilNr.db:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/qcrilNr.db \
     vendor/nothing/Spacewar/proprietary/vendor/etc/qcril_database/upgrade/config/10.0_config.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/config/10.0_config.sql \
