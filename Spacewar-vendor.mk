@@ -11,7 +11,6 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Spacewar/proprietary/system/etc/permissions/advancedSample_camera_extensions.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/advancedSample_camera_extensions.xml \
     vendor/nothing/Spacewar/proprietary/system/etc/permissions/se.dirac.acs.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/se.dirac.acs.xml \
     vendor/nothing/Spacewar/proprietary/system/etc/public.libraries.txt:$(TARGET_COPY_OUT_SYSTEM)/etc/public.libraries.txt \
-    vendor/nothing/Spacewar/proprietary/system/etc/richtapresources/.DS_Store:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/.DS_Store \
     vendor/nothing/Spacewar/proprietary/system/etc/richtapresources/1.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/1.he \
     vendor/nothing/Spacewar/proprietary/system/etc/richtapresources/10.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/10.he \
     vendor/nothing/Spacewar/proprietary/system/etc/richtapresources/11.he:$(TARGET_COPY_OUT_SYSTEM)/etc/richtapresources/11.he \
