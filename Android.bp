@@ -57,6 +57,17 @@ android_app_import {
 }
 
 android_app_import {
+	name: "NothingDiracService",
+	owner: "nothing",
+	apk: "proprietary/system/priv-app/NothingDiracService/NothingDiracService.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+}
+
+android_app_import {
 	name: "CACertService",
 	owner: "nothing",
 	apk: "proprietary/vendor/app/CACertService/CACertService.apk",
