@@ -229,12 +229,6 @@ dex_import {
 }
 
 dex_import {
-	name: "com.nxp.nfc",
-	owner: "nothing",
-	jars: ["proprietary/system/framework/com.nxp.nfc.jar"],
-}
-
-dex_import {
 	name: "tcmclient",
 	owner: "nothing",
 	jars: ["proprietary/system/framework/tcmclient.jar"],
