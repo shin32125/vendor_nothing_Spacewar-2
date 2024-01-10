@@ -46,28 +46,6 @@ cc_prebuilt_library_shared {
 }
 
 android_app_import {
-	name: "DiracAudioControlService",
-	owner: "nothing",
-	apk: "proprietary/system/priv-app/DiracAudioControlService/DiracAudioControlService.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-}
-
-android_app_import {
-	name: "NothingDiracService",
-	owner: "nothing",
-	apk: "proprietary/system/priv-app/NothingDiracService/NothingDiracService.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-}
-
-android_app_import {
 	name: "CACertService",
 	owner: "nothing",
 	apk: "proprietary/vendor/app/CACertService/CACertService.apk",
@@ -112,17 +90,6 @@ android_app_import {
 }
 
 android_app_import {
-	name: "PowerOffAlarm",
-	owner: "nothing",
-	apk: "proprietary/product/app/PowerOffAlarm/PowerOffAlarm.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	product_specific: true,
-}
-
-android_app_import {
 	name: "HotwordEnrollmentOKGoogleHEXAGON",
 	owner: "nothing",
 	apk: "proprietary/product/priv-app/HotwordEnrollmentOKGoogleHEXAGON/HotwordEnrollmentOKGoogleHEXAGON.apk",
@@ -144,6 +111,17 @@ android_app_import {
 	},
 	privileged: true,
 	product_specific: true,
+}
+
+android_app_import {
+	name: "PowerOffAlarm",
+	owner: "nothing",
+	apk: "proprietary/system_ext/app/PowerOffAlarm/PowerOffAlarm.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	system_ext_specific: true,
 }
 
 android_app_import {
@@ -223,9 +201,22 @@ dex_import {
 }
 
 dex_import {
+	name: "com.nxp.nfc",
+	owner: "nothing",
+	jars: ["proprietary/system/framework/com.nxp.nfc.jar"],
+}
+
+dex_import {
 	name: "tcmclient",
 	owner: "nothing",
 	jars: ["proprietary/system/framework/tcmclient.jar"],
+}
+
+dex_import {
+	name: "androidx.camera.extensions.impl.advanced",
+	owner: "nothing",
+	jars: ["proprietary/system_ext/framework/androidx.camera.extensions.impl.advanced.jar"],
+	system_ext_specific: true,
 }
 
 dex_import {
@@ -300,9 +291,9 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "vendor.qti.gnss@4.0-service",
+	name: "vendor.qti.gnss@4.2-service",
 	owner: "nothing",
-	src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.gnss@4.0-service.xml",
+	src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.gnss@4.2-service.xml",
 	filename_from_src: true,
 	sub_dir: "vintf/manifest",
 	soc_specific: true,
