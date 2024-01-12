@@ -1479,7 +1479,6 @@ PRODUCT_PACKAGES += \
     HotwordEnrollmentOKGoogleHEXAGON \
     HotwordEnrollmentXGoogleHEXAGON \
     PowerOffAlarm \
-    QtiTelephony \
     QtiTelephonyService \
     WfdService \
     dpmserviceapp \
