@@ -8,7 +8,6 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_COPY_FILES += \
     vendor/nothing/Spacewar/proprietary/odm/etc/aac_richtap.config:$(TARGET_COPY_OUT_ODM)/etc/aac_richtap.config \
     vendor/nothing/Spacewar/proprietary/product/etc/permissions/telephony_product_privapp-permissions-qti.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/telephony_product_privapp-permissions-qti.xml \
-    vendor/nothing/Spacewar/proprietary/system/etc/permissions/se.dirac.acs.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/se.dirac.acs.xml \
     vendor/nothing/Spacewar/proprietary/system/etc/public.libraries.txt:$(TARGET_COPY_OUT_SYSTEM)/etc/public.libraries.txt \
     vendor/nothing/Spacewar/proprietary/system/etc/sysconfig/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml \
     vendor/nothing/Spacewar/proprietary/system_ext/bin/dpmd:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/dpmd \
@@ -343,9 +342,6 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Spacewar/proprietary/vendor/etc/data/dsi_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/dsi_config.xml \
     vendor/nothing/Spacewar/proprietary/vendor/etc/data/netmgr_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/netmgr_config.xml \
     vendor/nothing/Spacewar/proprietary/vendor/etc/default-permissions/com.qualcomm.qti.cne.xml:$(TARGET_COPY_OUT_VENDOR)/etc/default-permissions/com.qualcomm.qti.cne.xml \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/dirac/interfacedb:$(TARGET_COPY_OUT_VENDOR)/etc/dirac/interfacedb \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/diracmobile.config:$(TARGET_COPY_OUT_VENDOR)/etc/diracmobile.config \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/diracvdd.bin:$(TARGET_COPY_OUT_VENDOR)/etc/diracvdd.bin \
     vendor/nothing/Spacewar/proprietary/vendor/etc/display/DPU660.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/DPU660.xml \
     vendor/nothing/Spacewar/proprietary/vendor/etc/display/DPU670.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/DPU670.xml \
     vendor/nothing/Spacewar/proprietary/vendor/etc/display/DPU720.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/DPU720.xml \
@@ -455,7 +451,6 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Spacewar/proprietary/vendor/etc/lvacfs_params/4mic/audiozoom_13.txt:$(TARGET_COPY_OUT_VENDOR)/etc/lvacfs_params/4mic/audiozoom_13.txt \
     vendor/nothing/Spacewar/proprietary/vendor/etc/lvacfs_params/4mic/audiozoom_4.txt:$(TARGET_COPY_OUT_VENDOR)/etc/lvacfs_params/4mic/audiozoom_4.txt \
     vendor/nothing/Spacewar/proprietary/vendor/etc/media/video_system_specs.json:$(TARGET_COPY_OUT_VENDOR)/etc/media/video_system_specs.json \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/media_codecs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs.xml \
     vendor/nothing/Spacewar/proprietary/vendor/etc/media_codecs_performance.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance.xml \
     vendor/nothing/Spacewar/proprietary/vendor/etc/media_codecs_performance_yupik_v0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance_yupik_v0.xml \
     vendor/nothing/Spacewar/proprietary/vendor/etc/media_codecs_performance_yupik_v1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance_yupik_v1.xml \
@@ -634,7 +629,6 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Spacewar/proprietary/vendor/gpu/kbc/unified_kbcs_32.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/unified_kbcs_32.bin \
     vendor/nothing/Spacewar/proprietary/vendor/gpu/kbc/unified_kbcs_64.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/unified_kbcs_64.bin \
     vendor/nothing/Spacewar/proprietary/vendor/gpu/kbc/unified_ksqs.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/unified_ksqs.bin \
-    vendor/nothing/Spacewar/proprietary/vendor/lib/aoc_audio_stereo_spatializer.so:$(TARGET_COPY_OUT_VENDOR)/lib/aoc_audio_stereo_spatializer.so \
     vendor/nothing/Spacewar/proprietary/vendor/lib/btaudio_offload_if.so:$(TARGET_COPY_OUT_VENDOR)/lib/btaudio_offload_if.so \
     vendor/nothing/Spacewar/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/eglSubDriverAndroid.so \
     vendor/nothing/Spacewar/proprietary/vendor/lib/egl/libEGL_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libEGL_adreno.so \
@@ -658,7 +652,6 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Spacewar/proprietary/vendor/lib/libApeSwDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libApeSwDec.so \
     vendor/nothing/Spacewar/proprietary/vendor/lib/libC2D2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libC2D2.so \
     vendor/nothing/Spacewar/proprietary/vendor/lib/libCB.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCB.so \
-    vendor/nothing/Spacewar/proprietary/vendor/lib/libDiracAPI_SHARED.so:$(TARGET_COPY_OUT_VENDOR)/lib/libDiracAPI_SHARED.so \
     vendor/nothing/Spacewar/proprietary/vendor/lib/libFileMux_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFileMux_proprietary.so \
     vendor/nothing/Spacewar/proprietary/vendor/lib/libMpeghSwEnc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMpeghSwEnc.so \
     vendor/nothing/Spacewar/proprietary/vendor/lib/libOmxAacDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxAacDec.so \
@@ -708,7 +701,6 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Spacewar/proprietary/vendor/lib/libcdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcdsprpc.so \
     vendor/nothing/Spacewar/proprietary/vendor/lib/libcppf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcppf.so \
     vendor/nothing/Spacewar/proprietary/vendor/lib/libdiag.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdiag.so \
-    vendor/nothing/Spacewar/proprietary/vendor/lib/libdiracapwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdiracapwrapper.so \
     vendor/nothing/Spacewar/proprietary/vendor/lib/libdrc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdrc.so \
     vendor/nothing/Spacewar/proprietary/vendor/lib/libdsd2pcm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdsd2pcm.so \
     vendor/nothing/Spacewar/proprietary/vendor/lib/libfastcvdsp_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfastcvdsp_stub.so \
@@ -837,13 +829,10 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Spacewar/proprietary/vendor/lib/rfsa/adsp/libsuper_res_networks.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libsuper_res_networks.so \
     vendor/nothing/Spacewar/proprietary/vendor/lib/rfsa/adsp/libvpp_ais_networks.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libvpp_ais_networks.so \
     vendor/nothing/Spacewar/proprietary/vendor/lib/rfsa/adsp/libvpt_action_recognition.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libvpt_action_recognition.so \
-    vendor/nothing/Spacewar/proprietary/vendor/lib/soundfx/libasphere.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libasphere.so \
-    vendor/nothing/Spacewar/proprietary/vendor/lib/soundfx/libdiraceffect.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libdiraceffect.so \
     vendor/nothing/Spacewar/proprietary/vendor/lib/soundfx/libqcbassboost.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libqcbassboost.so \
     vendor/nothing/Spacewar/proprietary/vendor/lib/soundfx/libqcreverb.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libqcreverb.so \
     vendor/nothing/Spacewar/proprietary/vendor/lib/soundfx/libqcvirt.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libqcvirt.so \
     vendor/nothing/Spacewar/proprietary/vendor/lib/soundfx/libshoebox.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libshoebox.so \
-    vendor/nothing/Spacewar/proprietary/vendor/lib/soundfx/libspatialaudio.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libspatialaudio.so \
     vendor/nothing/Spacewar/proprietary/vendor/lib/vendor.qti.diaghal@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.diaghal@1.0.so \
     vendor/nothing/Spacewar/proprietary/vendor/lib/vendor.qti.hardware.bluetooth_sar@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.bluetooth_sar@1.0.so \
     vendor/nothing/Spacewar/proprietary/vendor/lib/vendor.qti.hardware.bluetooth_sar@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.bluetooth_sar@1.1.so \
@@ -856,7 +845,6 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Spacewar/proprietary/vendor/lib/vendor.qti.hardware.vpp@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.vpp@2.0.so \
     vendor/nothing/Spacewar/proprietary/vendor/lib/vendor.qti.hardware.wifidisplaysession@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.wifidisplaysession@1.0.so \
     vendor/nothing/Spacewar/proprietary/vendor/lib/vendor.qti.hardware.wifidisplaysessionl@1.0-halimpl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.wifidisplaysessionl@1.0-halimpl.so \
-    vendor/nothing/Spacewar/proprietary/vendor/lib64/aoc_audio_stereo_spatializer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/aoc_audio_stereo_spatializer.so \
     vendor/nothing/Spacewar/proprietary/vendor/lib64/btaudio_offload_if.so:$(TARGET_COPY_OUT_VENDOR)/lib64/btaudio_offload_if.so \
     vendor/nothing/Spacewar/proprietary/vendor/lib64/camera/com.qti.eeprom.abra_qtech_p24c128e_imx766_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.eeprom.abra_qtech_p24c128e_imx766_eeprom.so \
     vendor/nothing/Spacewar/proprietary/vendor/lib64/camera/com.qti.eeprom.abra_qtech_p24c128e_s5kjn1_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.eeprom.abra_qtech_p24c128e_s5kjn1_eeprom.so \
@@ -1346,7 +1334,6 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Spacewar/proprietary/vendor/lib64/rfsa/adsp/libsns_low_lat_stream_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib64/rfsa/adsp/libsns_low_lat_stream_skel.so \
     vendor/nothing/Spacewar/proprietary/vendor/lib64/se_extn_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/se_extn_client.so \
     vendor/nothing/Spacewar/proprietary/vendor/lib64/sensors.ssc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.ssc.so \
-    vendor/nothing/Spacewar/proprietary/vendor/lib64/soundfx/libspatialaudio.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libspatialaudio.so \
     vendor/nothing/Spacewar/proprietary/vendor/lib64/vendor.aac.hardware.richtap.vibrator-V1-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.aac.hardware.richtap.vibrator-V1-ndk_platform.so \
     vendor/nothing/Spacewar/proprietary/vendor/lib64/vendor.display.color@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.color@1.0.so \
     vendor/nothing/Spacewar/proprietary/vendor/lib64/vendor.display.color@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.color@1.1.so \
@@ -1453,8 +1440,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libfastcvopt \
     libthermalclient \
-    DiracAudioControlService \
-    NothingDiracService \
     CACertService \
     CneApp \
     IWlanService \
@@ -1462,7 +1447,6 @@ PRODUCT_PACKAGES += \
     PowerOffAlarm \
     HotwordEnrollmentOKGoogleHEXAGON \
     HotwordEnrollmentXGoogleHEXAGON \
-    QtiTelephony \
     QtiTelephonyService \
     WfdService \
     dpmserviceapp \
