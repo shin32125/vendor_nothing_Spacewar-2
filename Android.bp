@@ -313,9 +313,9 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "vendor.qti.gnss@4.2-service",
+	name: "vendor.qti.gnss@4.0-service",
 	owner: "nothing",
-	src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.gnss@4.2-service.xml",
+	src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.gnss@4.0-service.xml",
 	filename_from_src: true,
 	sub_dir: "vintf/manifest",
 	soc_specific: true,
